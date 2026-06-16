@@ -25,6 +25,7 @@ include "inc-conexao.php";
         echo "<td>
         <a href='deletar.php?id={$linha['id']}'>Deletar</a>
         <a href='visualizar.php?id={$linha['id']}'>Visualizar</a>
+        <a href='form-alterar.php?id={$linha['id']}'>Editar</a>
         </td>";
         echo "</tr>";
         }
